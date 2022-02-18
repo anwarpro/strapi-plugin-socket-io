@@ -7,6 +7,8 @@ module.exports = (
 ) => {
   process.nextTick(() => {
     // TODO: need configuration view in admin ui
-    strapi.StrapIO = (require("strapio"))(strapi);
+    strapi.StrapIO = (require("strapio"))(strapi,{
+        cors: {origin: "*", methods: ["GET", "POST"]},
+      });
   });
 };
