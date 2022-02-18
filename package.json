@@ -33,7 +33,7 @@
     "url": "https://github.com/larsonnn/strapi-plugin-socket-io/issues"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
+    "node": ">=10.16.0 <=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "GPLv3",
